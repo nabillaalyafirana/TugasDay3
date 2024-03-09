@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8B5CC"
+    tools:context=".detail">
+
+    <ImageView
+        android:id="@+id/ivDetailProduct"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:contentDescription="NAMA BARANG"/>
+
+    <TextView
+        android:id="@+id/tvDetailProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivDetailProduct"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Product Name"
+        android:textColor="#14226C"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDetailProductDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDetailProductName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Product Description"
+        android:textColor="#84BBE6"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDetailProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDetailProductDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Product Price"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnBagikan"
+        android:layout_below="@id/tvDetailProductPrice"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Bagikan"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
+
+

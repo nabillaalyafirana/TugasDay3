@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8B5CC"
+    tools:context=".Halaman4">
+
+    <Button
+        android:id="@+id/btntonerwl"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:contentDescription=" "
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvtonerwl"
+        android:layout_width="234dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="34dp"
+        android:text="apat membantu mengembalikan pH alami kulit wajah, membersihkan sisa debu dan kotoran."
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitlletonerwl"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="11dp"
+        android:text="Whitelab Essence Toner"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargatonerwl"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="87dp"
+        android:text="Rp 58,000."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivtonerwl"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/tonerwl" />
+
+    <Button
+        android:id="@+id/btnmoiswl"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/btntonerwl"
+        android:contentDescription=" "
+        android:layout_marginTop="15dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvmoisskin"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="175dp"
+        android:text="dapat mempertahankan fungsi skin barrier, meningkatkan level hidrasi, dan menenangkan kulit yang iritasi."
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitllemoisskin"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="126dp"
+        android:layout_marginTop="150dp"
+        android:text="Whitelab Barrier Moisturizing Gel"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargamoisskin"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="231dp"
+        android:text="Rp 95,400."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivmoisskin"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/ivtonerwl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="161dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/moiswl" />
+
+    <Button
+        android:id="@+id/btnsabunwl"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/btnmoiswl"
+        android:contentDescription=" "
+        android:layout_marginTop="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvsabunwl"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="323dp"
+        android:text="dapat membersihkan wajah dari debu, kotoran, dan sebum berlebih hingga ke pori-pori."
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitllesabunwl"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="285dp"
+        android:text="Whitelab pH-Balanced Facial Cleanser"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargasabunwl"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="374dp"
+        android:text="Rp 62,100."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivsabunswl"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/ivmoisskin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="294dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/sabunwl" />
+
+    <Button
+        android:id="@+id/btneyecarewl"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/btnsabunwl"
+        android:contentDescription=" "
+        android:layout_marginTop="12dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tveyecarewl"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="446dp"
+        android:text="merawat elastisitas kulit, menyamarkan kerutan, dan mencerahkan area sekitar mata sehingga tampak lebih segar."
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitlleeyecarewl"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="427dp"
+        android:text="Whitelab Eye Cream"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargaeyecarewl"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="495dp"
+        android:text="Rp 84,600."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iveyecarewl"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/ivsabunswl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="437dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/eyecarewl" />
+
+    <Button
+        android:id="@+id/btnserumwl"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/btneyecarewl"
+        android:contentDescription=" "
+        android:layout_marginTop="15dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvserumwl"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="587dp"
+        android:text="membantu menyamarkan noda hitam dan bekas jerawat, sehingga warna kulit tampak lebih merata, cerah, dan lembap."
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitlleserumwl"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="565dp"
+        android:text="Whitelab A-Dose+ Glowing Serum"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargaserumwl"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="641dp"
+        android:text="Rp 84,300."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iveserumwl"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/iveyecarewl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="573dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/serumwl" />
+
+
+</RelativeLayout>

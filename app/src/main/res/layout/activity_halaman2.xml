@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8B5CC"
+    tools:context=".Halaman2">
+
+    <Button
+        android:id="@+id/btntonerskii"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:contentDescription=" "
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvtonerskii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="37dp"
+        android:text="Toner yang menghidrasi dengan kandungan AHA untuk mengelupas dan mengkondisikan kulit"
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitlletonerskii"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="11dp"
+        android:text="PITERA™ Facial Treatment"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargatonerskii"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="87dp"
+        android:text="Rp 1,249,155."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivtonerskii"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/tonerskiin" />
+
+    <Button
+        android:id="@+id/btnmoiskii"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/btntonerskii"
+        android:contentDescription=" "
+        android:layout_marginTop="15dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvmoisskii"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="177dp"
+        android:text="untuk mengurangi munculnya garis-garis halus dan membuat kulit terasa kenyal dan kenyal."
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitllemoisskii"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="153dp"
+        android:text="SKINPOWER Advanced Cream"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargamoisskii"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="224dp"
+        android:text="Rp 3,981,777."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivmoisskii"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/ivtonerskii"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="152dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/moisskii" />
+
+    <Button
+        android:id="@+id/btnsabunskii"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/btnmoiskii"
+        android:contentDescription=" "
+        android:layout_marginTop="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvsabunskii"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="316dp"
+        android:text="Tampilkan kulit yang bersih dan halus dengan pembersih berbusa kami"
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitllesabunskii"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="291dp"
+        android:text="PITERA™ Facial Treatment Cleanse"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargasabunskii"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="361dp"
+        android:text="Rp 1,172,095."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivsabunskii"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/ivmoisskii"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="294dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/sabunskii" />
+
+    <Button
+        android:id="@+id/btneyecarekii"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/btnsabunskii"
+        android:contentDescription=" "
+        android:layout_marginTop="12dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tveyecareskii"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="455dp"
+        android:text="PITERA™ Konsentrat Tertinggi kami dalam krim mata yang sangat kaya"
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitlleeyecareskii"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="425dp"
+        android:text="LXP Ultimate Revival Eye Cream"
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargaeyecareskii"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="495dp"
+        android:text="Rp 3,125,513."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iveyecareskii"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/ivsabunskii"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="437dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/eyecareskii" />
+
+    <Button
+        android:id="@+id/btnserumskii"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:layout_below="@id/btneyecarekii"
+        android:contentDescription=" "
+        android:layout_marginTop="15dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvserumskii"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="587dp"
+        android:text="Kurangi kulit kusam, cerahkan warna kulit Anda, dan targetkan bintik matahari yang terlihat secara holistik."
+        android:textColor="#84BBE6"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvtitlleserumskii"
+        android:layout_width="224dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="565dp"
+        android:text="GenOptics Ultraura Essence Serum "
+        android:textColor="#14226C"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvhargaserumskii"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="641dp"
+        android:text="Rp 4,134,074."
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iveserumskii"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/iveyecareskii"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="573dp"
+        android:contentDescription="NAMA BARANG"
+        android:src="@drawable/serumskii" />
+
+</RelativeLayout>
